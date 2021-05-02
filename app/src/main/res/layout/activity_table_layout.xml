@@ -1,0 +1,108 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EDBF69">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="UI Layouts"
+        android:textAlignment="center"
+        android:textColor="#4DD637"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Performed by: Sandesh Dinkar (BE18F06F013)"
+        android:textAlignment="center"
+        android:textColor="#383CC1"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Table Layout"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Username"
+            android:textColor="#ff0000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#ff0000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Password"
+            android:textColor="#ff0000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#ff0000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="75dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#F7CD2E"
+            android:text="LOGIN"
+            android:textColor="#8b4513" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="75dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#F7CD2E"
+            android:text="BACK"
+            android:textColor="#8b4513" />
+    </TableRow>
+
+</TableLayout>

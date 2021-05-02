@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffc0cb"
+    tools:context=".AbsoluteActivity">
+
+    <TextView
+        android:id="@+id/AppName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="UI Layouts"
+        android:textAlignment="center"
+        android:textColor="#4DD637"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/AppOwnerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AppName"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Performed by: Sandesh Dinkar (BE18F06F013)"
+        android:textAlignment="center"
+        android:textColor="#383CC1"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LayoutName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AppOwnerName"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Relative Layout"
+        android:textAlignment="center"
+        android:textColor="#4DD637"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LayoutName"
+        android:layout_margin="15dp"
+        android:text="Username"
+        android:textColor="#8b4513"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/getUserName"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LayoutName"
+        android:layout_toRightOf="@id/username"
+        android:textColor="#8b4513"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_margin="15dp"
+        android:layout_x="40px"
+        android:layout_y="650px"
+        android:text="Password"
+        android:textColor="#8b4513"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/getPassword"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getUserName"
+        android:layout_toRightOf="@id/password"
+        android:layout_x="450px"
+        android:layout_y="650px"
+        android:textColor="#8b4513"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getPassword"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="78dp"
+        android:backgroundTint="#F7CD2E"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textColor="#8b4513" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_marginLeft="75dp"
+        android:backgroundTint="#F7CD2E"
+        android:text="BACK"
+        android:textColor="#8b4513" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_marginLeft="75dp"
+        android:layout_toRightOf="@id/back"
+        android:backgroundTint="#F7CD2E"
+        android:text="NEXT"
+        android:textColor="#8b4513" />
+
+
+</RelativeLayout>

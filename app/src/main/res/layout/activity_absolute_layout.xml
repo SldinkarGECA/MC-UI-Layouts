@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d0e2ec"
+    tools:context=".AbsoluteActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="350px"
+        android:layout_y="20px"
+        android:text="UI Layouts"
+        android:textColor="#4DD637"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0px"
+        android:layout_y="150px"
+        android:gravity="center_horizontal"
+        android:text="Performed by: Sandesh Dinkar (BE18F06F013)"
+        android:textAlignment="center"
+        android:textColor="#383CC1"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="300px"
+        android:layout_y="350px"
+        android:text="Absolute Layout"
+        android:textColor="#483d8b"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40px"
+        android:layout_y="500px"
+        android:text="Username"
+        android:textColor="#ff0000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_x="450px"
+        android:layout_y="500px"
+        android:textColor="#ff0000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40px"
+        android:layout_y="650px"
+        android:text="Password"
+        android:textColor="#ff0000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_x="450px"
+        android:layout_y="650px"
+        android:textColor="#ff0000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="400px"
+        android:layout_y="800px"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="400px"
+        android:layout_y="950px"
+        android:text="NEXT" />
+
+</AbsoluteLayout>
